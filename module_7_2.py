@@ -7,8 +7,8 @@ def custom_write(file_name, strings):
         file.write(string + '\n')
         line += 1
         strings_positions[line, position] = string
+    file.close()
     return strings_positions
-
 
 
 info = [
